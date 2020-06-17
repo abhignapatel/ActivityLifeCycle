@@ -29,7 +29,6 @@ public class SecondActivity extends AppCompatActivity {
         textView = findViewById(R.id.second);
 
 
-//
         intent=getIntent();
         String str = intent.getStringExtra("key");
         textView.setText(str);
